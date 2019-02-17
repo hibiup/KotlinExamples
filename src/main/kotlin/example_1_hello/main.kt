@@ -1,3 +1,5 @@
+package example_1_hello
+
 data class Person(val name:String, val age:Int? = null)
 
 fun main(args: Array<String>) {
@@ -11,5 +13,5 @@ fun main(args: Array<String>) {
         it.age ?:0
     }
 
-    println("The oldest is: $oldest")   // The oldest is: Person(name=Bob, age=13)
+    println("The oldest is: $oldest")   // The oldest is: example_1_hello.Person(name=Bob, age=13)
 }
